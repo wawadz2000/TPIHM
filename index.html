@@ -1,37 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-	<meta charset="UTF-8">
-	<title>Registration Form In HTML and CSS</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<div class="form">
-	      <div class="title">DearStudent</div>
-	      <div class="subtitle">create your account , Now !!</div>
-	      <div class="input-container ic1">
-	        <input id="firstname" class="input" type="text" placeholder=" " />
-	        <div class="cut"></div>
-	        <label for="firstname" class="placeholder">First name</label>
-	      </div>
-	      <div class="input-container ic2">
-	        <input id="lastname" class="input" type="text" placeholder=" " />
-	        <div class="cut"></div>
-	        <label for="lastname" class="placeholder">Last name</label>
-	      </div>
-	      <div class="input-container ic2">
-	        <input id="email" class="input" type="email" placeholder=" " />
-	        <div class="cut cut-short"></div>
-	        <label for="email" class="placeholder">Email</>
-	      </div>
-	      <button type="text" class="submit">submit</button>
-	    </div>
-</body>
-</html>
+<html>
 
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="home"> 
+        <img id="home-background" src="ext-home.jpg"> 
+
+        <img id="top-logo" src="logo.png"> 
+
+        <strong id="top-logo-text""> Algerian Education</strong>
+
+        <button id ="signUp-button"  onclick="location.href ='login/Login.html'"><strong>Sign Up</strong></button>
+
+        <div id="navigationBar">
+            <span><strong>Academics</strong> </span>
+            <span><strong>Registration</strong> </span> 
+            <span><strong>About</strong> </span>
+        </div>
+
+        <div id ="home-body">
+            <p style="font-size: 40;"><strong>Some Big Important Title ?</strong>And some Supplementary Text.</p>
+            <p style="font-size: 24;">More Information or something Idk what I am typing just a space filler.Perhaps you can 
+                make more sense of it ? </p>
+
+            <img class="arrow" id="first-arrow" src="arrow.png"><p class="arrow-text" id="first-arrow-text">Courses</p>
+            <img class="arrow" id="second-arrow" src="arrow.png"><p class ="arrow-text" id="second-arrow-text">Certificates</p>
+            <img class="arrow" id="third-arrow" src="arrow.png"> <p class ="arrow-text" id="third-arrow-text">Programs</p>
+            <img class="arrow" id="fourth-arrow" src="arrow.png"> <p class ="arrow-text" id="fourth-arrow-text">Activities</p>    
+
+        </div>
+    </div>
+
+   
+</body>
+
+
+
+</html>
