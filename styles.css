@@ -1,14 +1,14 @@
 
 #navigationBar {
     position: fixed;
-    bottom: 850;
-    right: 600;
+    bottom: 850px;
+    right: 600px;
     width: 700px;
 
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 10px 0px;
 
   }
   
@@ -20,15 +20,15 @@ span {
 
 #home-background{
     position: fixed;
-    bottom: 20;
-    right: 0;
+    bottom: 20px;
+    right: 0px;
     width: 700px;
 }
 
 #signUp-Button{
     position: fixed;
-    bottom: 880;
-    right: 0;
+    bottom: 880px;
+    right: 0px;
     width: 200px;
     height: 40px;
     background-color: white;
@@ -36,8 +36,8 @@ span {
 
 #top-logo{
     position: fixed;
-    bottom: 850;
-    right: 1800;
+    bottom: 850px;
+    right: 1800px;
     width: 70px;
     height: 70px;
 }
@@ -45,16 +45,16 @@ span {
 #top-logo-text{
     font-size: 20px;
     position: fixed;
-    bottom: 815;
-    right: 1690;
+    bottom: 815px;
+    right: 1690px;
     width: 100px;
     height: 100px;
 }
 
 #home-body{
     position: fixed;
-    bottom: 700;
-    right: 1100;
+    bottom: 700px;
+    right: 1100px;
     width: 500px;
     height: 200px;
 }
@@ -65,58 +65,55 @@ img.arrow {
 }
 
 p.arrow-text{
-    font-size: 20;
+    font-size: 20px;
     font-weight: bold;
 }
 
 
 #first-arrow{
     position: fixed;
-    bottom: 400;
+    bottom: 400px;
 }
 
 #second-arrow{
     position: fixed;
-    bottom: 350;
+    bottom: 350px;
 }
 
 #third-arrow{
     position: fixed;
-    bottom: 300;
+    bottom: 300px;
 }
 
 #fourth-arrow{
     position: fixed;
-    bottom: 250;
+    bottom: 250px;
 }
 
 #first-arrow-text{
     position: fixed;
-    bottom: 395;
-    right: 1435;
+    bottom: 395px;
+    right: 1435px;
 }
 
 #second-arrow-text{
     position: fixed;
-    bottom: 345;
-    right: 1400;
+    bottom: 345px;
+    right: 1400px;
 }
 
 #third-arrow-text{
     position: fixed;
-    bottom: 295;
-    right: 1420
+    bottom: 295px;
+    right: 1420px;
 }
 
 #fourth-arrow-text{
     position: fixed;
-    bottom: 245;
-    right: 1420;
+    bottom: 245px;
+    right: 1420px;
 }
-#home{
-    position: fixed;
 
-}
 
 
 
