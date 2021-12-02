@@ -28,7 +28,7 @@ span {
 #signUp-Button{
     position: fixed;
     bottom: 880px;
-    right: 200px;
+    right: 0px;
     width: 200px;
     height: 40px;
     background-color: white;
