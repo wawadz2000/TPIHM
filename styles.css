@@ -31,7 +31,7 @@ span {
 #signUp-Button{
     position: fixed;
     bottom: 880px;
-    right: 0px;
+    right: 160px;
     width: 200px;
     height: 40px;
     background-color: white;
@@ -56,7 +56,7 @@ span {
 
 #home-body{
     position: fixed;
-    bottom: 480px;
+    bottom: 600px;
     right: 1100px;
     width: 500px;
     height: 200px;
