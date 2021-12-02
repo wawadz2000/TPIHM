@@ -114,7 +114,7 @@ p.arrow-text{
     right: 1420;
 }
 #home{
-    position: relative;
+    position: fixed;
 
 }
 
