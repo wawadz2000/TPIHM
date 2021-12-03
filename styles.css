@@ -1,8 +1,8 @@
 #navigationBar {
-    position: fixed;
+    position: relative;
     top: 0%;
     right: auto;
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
@@ -10,16 +10,15 @@
   }
   
 span {
-    width: 180px;
+    width: 30%;
     height: 50px;
     flex-grow:1;
 }
 
 #home-background{
     position: fixed;
-    bottom: 20px;
     right: 0px;
-    width: 900px;
+    width: 50%;
     height: 100%;
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
     object-fit: cover;
@@ -27,20 +26,25 @@ span {
 }
 p,strong{
     color: #354449;
+    text-align: center;
 }
 #signUp-Button{
     position: fixed;
-    bottom: 880px;
-    right: 160px;
+    bottom: 13%;
+    right: 70%;
     width: 200px;
     height: 40px;
     background-color: #354449;
+    border-radius: 5px;
+}
+#SignUp-text{
+    color:#CFC1AB ;
 }
 
 #top-logo{
     position: fixed;
-    bottom: 850px;
-    right: 1800px;
+    bottom: 88%;
+    right: 90%;
     width: 70px;
     height: 70px;
 }
@@ -48,18 +52,18 @@ p,strong{
 #top-logo-text{
     font-size: 20px;
     position: fixed;
-    bottom: 815px;
-    right: 1690px;
+    bottom: 83%;
+    right: 82%;
     width: 100px;
     height: 100px;
 }
 
 #home-body{
-    position: fixed;
-    bottom: 600px;
-    right: 1100px;
-    width: 500px;
-    height: 200px;
+    position: static;
+    right: 39%;
+    width: 50%;
+    height: 50%;
+    left: 10%;
 }
 
 img.arrow {
@@ -75,46 +79,50 @@ p.arrow-text{
 
 #first-arrow{
     position: fixed;
-    bottom: 400px;
+    bottom: 20%;
 }
 
 #second-arrow{
     position: fixed;
-    bottom: 350px;
+    bottom: 30%;
 }
 
 #third-arrow{
     position: fixed;
-    bottom: 300px;
+    bottom: 40%;
 }
 
 #fourth-arrow{
     position: fixed;
-    bottom: 250px;
+    bottom: 50%;
 }
 
 #first-arrow-text{
     position: fixed;
-    bottom: 395px;
-    right: 1435px;
+    bottom: 49%;
+    right: 89.5%;
+    font-family: 'Fuzzy Bubbles', cursive;
 }
 
 #second-arrow-text{
     position: fixed;
-    bottom: 345px;
-    right: 1400px;
+    bottom: 39%;
+    right: 87%;
+    font-family: 'Fuzzy Bubbles', cursive;
 }
 
 #third-arrow-text{
     position: fixed;
-    bottom: 295px;
-    right: 1420px;
+    bottom: 29%;
+    right: 88.5%;
+    font-family: 'Fuzzy Bubbles', cursive;
 }
 
 #fourth-arrow-text{
     position: fixed;
-    bottom: 245px;
-    right: 1420px;
+    bottom: 19%;
+    right: 88.5%;
+    font-family: 'Fuzzy Bubbles', cursive;
 }
 
 
