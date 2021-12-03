@@ -2,12 +2,12 @@
 #navigationBar {
     position: fixed;
     bottom: 850px;
-    right: 600px;
-    width: 700px;
+    right: 710px;
+    width: 600px;
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
-    padding: 10px 0px ; 
+    padding: 10px 0px; 
     background-color: #354449;
 
   }
@@ -27,14 +27,16 @@ span {
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
     object-fit: cover;
 }
-
+p,strong{
+    color:white;
+}
 #signUp-Button{
     position: fixed;
     bottom: 880px;
     right: 160px;
     width: 200px;
     height: 40px;
-    background-color: white;
+    background-color: #354449;
 }
 
 #top-logo{
@@ -60,7 +62,6 @@ span {
     right: 1100px;
     width: 500px;
     height: 200px;
-    color: #354449;
 }
 
 img.arrow {
