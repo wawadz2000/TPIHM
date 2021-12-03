@@ -31,14 +31,17 @@ p,strong{
 #signUp-Button{
     position: fixed;
     bottom: 13%;
-    right: 70%;
-    width: 200px;
-    height: 40px;
+    right: 60%;
+    width: 250px;
+    height: 50px;
     background-color: #354449;
     border-radius: 5px;
 }
 #SignUp-text{
     color:#CFC1AB ;
+    font-size: 24;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: bolder;
 }
 
 #top-logo{
