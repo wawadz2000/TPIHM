@@ -127,7 +127,11 @@ p.arrow-text{
     right: 88.5%;
     font-family: 'Fuzzy Bubbles', cursive;
 }
-
+#copywrite{
+    position: fixed;
+    bottom: 0.5%;
+    font-size: 14px;
+}
 
 
 

@@ -123,3 +123,8 @@ body {
   background-color: #EFE9DB;
 	color: #354449;
 }
+#copywrite{
+  position: fixed;
+  bottom: 0.5%;
+  font-size: 14px;
+}
