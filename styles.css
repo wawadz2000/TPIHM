@@ -1,8 +1,8 @@
 #navigationBar {
     position: fixed;
-    bottom: 850px;
-    right: 710px;
-    width: 600px;
+    top: 0%;
+    right: auto;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
