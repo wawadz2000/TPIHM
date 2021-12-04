@@ -31,9 +31,9 @@ p,strong{
 }
 
 #signUp-Button{
-    position: fixed;
-    bottom: 20%;
-    right: 62.5%;
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
     width: 250px;
     height: 50px;
     background-color: #354449;
@@ -58,8 +58,8 @@ p,strong{
 #top-logo-text{
     font-size: 20px;
     position: fixed;
-    bottom: 84%;
-    right: 84%;
+    bottom: 82%;
+    left : 10%;
     width: 100px;
     height: 100px;
 }
@@ -76,7 +76,7 @@ p,strong{
     position: fixed;
     width: 35%;
     left : 10%;
-    top : 20%;
+    top : 10%;
     font-size: 40; 
 }
 
@@ -102,54 +102,54 @@ p.arrow-text{
 
 #first-arrow{
     position: fixed;
-    bottom: 40%;
-    right: 87%;
+    bottom: 32%;
+    left : 11%;
 }
 
 #second-arrow{
     position: fixed;
-    bottom: 45%;
-    right: 87%;
+    bottom: 37%;
+    left : 11%;
 }
 
 #third-arrow{
     position: fixed;
-    bottom: 50%;
-    right: 87%;
+    bottom: 42%;
+    left : 11%;
 
 }
 
 #fourth-arrow{
     position: fixed;
-    bottom: 55%;
-    right: 87%;
+    bottom: 47%;
+    left : 11%;
 }
 
 #first-arrow-text{
     position: fixed;
-    bottom: 39%;
-    right: 81%;
+    bottom: 30%;
+    left : 15%;
     font-family: 'Fuzzy Bubbles', cursive;
 }
 
 #second-arrow-text{
     position: fixed;
-    bottom: 44%;
-    right: 79%;
+    bottom: 35%;
+    left : 15%;
     font-family: 'Fuzzy Bubbles', cursive;
 }
 
 #third-arrow-text{
     position: fixed;
-    bottom: 49%;
-    right: 80%;
+    bottom: 40%;
+    left : 15%;
     font-family: 'Fuzzy Bubbles', cursive;
 }
 
 #fourth-arrow-text{
     position: fixed;
-    bottom: 54%;
-    right: 80%;
+    bottom: 45%;
+    left : 15%;
     font-family: 'Fuzzy Bubbles', cursive;
 }
 
