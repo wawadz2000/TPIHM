@@ -1,8 +1,8 @@
 #navigationBar {
-    position: relative;
-    top: 0%;
-    right: auto;
-    width: 50%;
+    position: fixed;
+    top: 4%;
+    right: 40%;
+    width: 35%;
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
@@ -17,6 +17,7 @@ span {
 
 #home-background{
     position: fixed;
+    bottom :5;
     right: 0px;
     width: 50%;
     height: 100%;
@@ -28,15 +29,17 @@ p,strong{
     color: #354449;
     text-align: center;
 }
+
 #signUp-Button{
     position: fixed;
-    bottom: 13%;
-    right: 60%;
+    bottom: 20%;
+    right: 62.5%;
     width: 250px;
     height: 50px;
     background-color: #354449;
     border-radius: 5px;
 }
+
 #SignUp-text{
     color:#CFC1AB ;
     font-size: 24;
@@ -55,18 +58,35 @@ p,strong{
 #top-logo-text{
     font-size: 20px;
     position: fixed;
-    bottom: 83%;
-    right: 82%;
+    bottom: 84%;
+    right: 84%;
     width: 100px;
     height: 100px;
 }
 
 #home-body{
-    position: static;
-    right: 39%;
-    width: 50%;
+    position: fixed;
+    width: 35%;
     height: 50%;
-    left: 10%;
+    right: 53%;
+    top: 30%;
+}
+
+#important-title{
+    position: fixed;
+    width: 35%;
+    left : 10%;
+    top : 20%;
+    font-size: 40; 
+}
+
+#important-text{
+    position: fixed;
+    top : 30%;
+    left : 11%;
+    width: 35%;
+    font-size: 18; 
+    font-family: Fuzzy Bubbles,cursive;
 }
 
 img.arrow {
@@ -82,53 +102,61 @@ p.arrow-text{
 
 #first-arrow{
     position: fixed;
-    bottom: 20%;
+    bottom: 40%;
+    right: 87%;
 }
 
 #second-arrow{
     position: fixed;
-    bottom: 30%;
+    bottom: 45%;
+    right: 87%;
 }
 
 #third-arrow{
     position: fixed;
-    bottom: 40%;
+    bottom: 50%;
+    right: 87%;
+
 }
 
 #fourth-arrow{
     position: fixed;
-    bottom: 50%;
+    bottom: 55%;
+    right: 87%;
 }
 
 #first-arrow-text{
     position: fixed;
-    bottom: 49%;
-    right: 89.5%;
+    bottom: 39%;
+    right: 81%;
     font-family: 'Fuzzy Bubbles', cursive;
 }
 
 #second-arrow-text{
     position: fixed;
-    bottom: 39%;
-    right: 87%;
+    bottom: 44%;
+    right: 79%;
     font-family: 'Fuzzy Bubbles', cursive;
 }
 
 #third-arrow-text{
     position: fixed;
-    bottom: 29%;
-    right: 88.5%;
+    bottom: 49%;
+    right: 80%;
     font-family: 'Fuzzy Bubbles', cursive;
 }
 
 #fourth-arrow-text{
     position: fixed;
-    bottom: 19%;
-    right: 88.5%;
+    bottom: 54%;
+    right: 80%;
     font-family: 'Fuzzy Bubbles', cursive;
 }
+
+
 #copywrite{
     position: fixed;
+    right: 68%;
     bottom: 0.5%;
     font-size: 14px;
 }
